@@ -26,7 +26,7 @@ public class Question1 {
                    leader.add(max);
                 }
             }
-            Collections.reversesort(leader);
+            Collections.sort(leader);
             System.out.print(leader);
 
             
